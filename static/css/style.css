@@ -130,6 +130,9 @@ body {
 
 .header-content {
     animation: fadeInDown 0.8s ease-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
@@ -172,6 +175,8 @@ body {
     font-size: 1.1rem;
     color: var(--gray-light);
     font-weight: 300;
+    text-align: center;
+    margin: 0;
 }
 
 /* ===== Contenido Principal ===== */
